@@ -1,7 +1,7 @@
 /* reseteo del viewport */
 
 html {
-    height: 100%;
+    background-repeat: repeat;
 }
 
 * {
@@ -26,7 +26,7 @@ header {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     padding: 2rem;
     justify-content: space-between;
 
@@ -57,7 +57,7 @@ header {
 
 .title-header {
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -97,4 +97,60 @@ header {
 .btn-barra:hover {
     background-color: #232340;
     color: white
+}
+
+/* Aqui inicai home */
+
+.container-hero {
+    display: flex;
+}
+
+.imagenHero {
+    background-image: url(./img/fka.png);
+
+    width: 100%;
+    height: 500px;
+}
+
+/* Aqui empieza la barra de navegacion hero */
+
+.nav-hero {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 2rem;
+    color: white;
+}
+
+.menuBarHero{
+    display:flex ;
+    gap: 2rem;
+}
+
+.menuBarHero > a{
+    color: white;
+}
+
+.menuBarHero > a:hover{
+    color: rgb(29, 7, 232);
+    
+
+}
+
+.titleTeam{
+    color: withe;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.inpuTAccess{
+    padding: 3px;
+    background-color: #5468e77c;
+    border: none;
+    width: 90px;
+    text-align: center;
+    
 }
